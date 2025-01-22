@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WSZYTKIEGO NAJLEPSZEGO</title>
+    <style>
+    body{
+    background-color:pink ;
+    
+    }
+    .zdjlewo{
+    float: left;
+    width: 900px;
+    }
+    .zdjprawo{
+    float: right;
+    width: 900px;
+    }
+    #tekstdonajechania{
+    position:fixed;
+    top: 900px;
+    z-index: 1;
+    width: 1900px;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    }
+    </style>
+</head>
+<body>
+<img class="zdjlewo" id="zdj1" onmouseenter="text1()" onmouseleave="textnull()" src="zdjecie1.jpeg"> 
+<img class="zdjprawo" id="zdj2" onmouseenter="text2()" onmouseleave="textnull()" src="zdjecie2.jpeg">
+<img class="zdjlewo" id="zdj3" onmouseenter="text3()" onmouseleave="textnull()" src="zdjecie3.jpeg">
+<img class="zdjprawo" id="zdj4" onmouseenter="text4()" onmouseleave="textnull()" src="zdjecie4.jpeg">
+<img class="zdjlewo" id="zdj5" onmouseenter="text5()" onmouseleave="textnull()" src="zdjecie5.jpeg"> 
+<img class="zdjprawo" id="zdj6" onmouseenter="text6()" onmouseleave="textnull()" src="zdjecie6.jpeg">
+<img class="zdjprawo" id="zdj7" onmouseenter="text7()" onmouseleave="textnull()" src="zdjecie7.jpeg">
+<img class="zdjlewo" id="zdj8" onmouseenter="text9()" onmouseleave="textnull()" src="zdjecie8.jpeg">
+<img class="zdjprawo" id="zdj9" onmouseenter="text8()" onmouseleave="textnull()" src="zdjecie9.jpeg">
+<img class="zdjlewo" id="zdj10" onmouseenter="text10()" onmouseleave="textnull()" src="zdjecie10.jpg">
+<img class="zdjprawo" id="zdj11" onmouseenter="text11()" onmouseleave="textnull()" src="zdjecie11.jpg">
+<div id="tekstdonajechania"></div>
+<script>
+function textnull(){
+document.getElementById("tekstdonajechania").innerHTML=""
+}
+function text1(){
+document.getElementById("tekstdonajechania").innerHTML="tutaj zrobilismy sobie tatuaże na wyjeździe (w muzemu żeglarstwa polskiego)"
+}
+function text2(){
+document.getElementById("tekstdonajechania").innerHTML="zdjecie z roztocza(nie było mnie tam nie moge za duzo powiedziec)"
+}
+function text3(){
+document.getElementById("tekstdonajechania").innerHTML="powrót po morskich przygodach (dużo przeżylismy ale nieczego nie żałujemy (oprócz toalety za 2zł))"
+}
+function text4(){
+document.getElementById("tekstdonajechania").innerHTML="wpatrzeni w maszyne śmierci w szczecinie(ten wielki młot)"
+}
+function text5(){
+document.getElementById("tekstdonajechania").innerHTML="jeden z pierwszych wypadów na łódke(nie wiedzielsimy ze to zajdzie tak daleko)"  
+}
+function text6(){
+document.getElementById("tekstdonajechania").innerHTML="wypad do zakopanego cała rodzina (mam nadzieje że w tym roku bedzie tak samo fajny)"
+}
+function text7(){
+document.getElementById("tekstdonajechania").innerHTML="wypad na pizze z cała rodzinką(widac po minie ze do wtedy byłem zaskoczony iloscia groszy która dziadziuś wyczarował)"
+}
+function text8(){
+document.getElementById("tekstdonajechania").innerHTML="40 cioci jagody i wujka mirka wiec oczywiscie trzeba było sobie zrobic zdjęcie"
+}
+function text9(){
+document.getElementById("tekstdonajechania").innerHTML="bardzo poważne zdjecie zrobione na tej samej imprezie(tym razem z dziadziusiem)"
+}
+function text10(){
+document.getElementById("tekstdonajechania").innerHTML="z babcią jesteśmy gotowi na popływanie w basenie (hotel jawor)"
+}
+function text11(){
+document.getElementById("tekstdonajechania").innerHTML="znów z babcią w drodze na wyprawe w góry(nie moge sie doczekac kolejnego takiego wyjazdu)"
+}
+
+
+</script>
+
+</body>
+</html>
+            

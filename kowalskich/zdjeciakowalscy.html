@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WSZYTKIEGO NAJLEPSZEGO</title>
+    <style>
+    body{
+    background-color:pink ;
+    
+    }
+    .zdjlewo{
+    float: left;
+    width: 900px;
+    }
+    .zdjprawo{
+    float: right;
+    width: 900px;
+    }
+    #tekstdonajechania{
+    position:fixed;
+    top: 900px;
+    z-index: 1;
+    width: 1900px;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    }
+    </style>
+</head>
+<body>
+<img class="zdjlewo" id="zdj1" onmouseenter="text1()" onmouseleave="textnull()" src="zdjecie1.jpg"> 
+<img class="zdjprawo" id="zdj2" onmouseenter="text2()" onmouseleave="textnull()" src="zdjecie2.jpg">
+<img class="zdjlewo" id="zdj3" onmouseenter="text3()" onmouseleave="textnull()" src="zdjecie3.jpg">
+<img class="zdjprawo" id="zdj4" onmouseenter="text4()" onmouseleave="textnull()" src="zdjecie4.jpg">
+<img class="zdjprawo" id="zdj5" onmouseenter="text5()" onmouseleave="textnull()" src="zdjecie5.jpeg"> 
+<img class="zdjlewo" id="zdj6" onmouseenter="text6()" onmouseleave="textnull()" src="zdjecie6.jpeg">
+<img class="zdjprawo" id="zdj7" onmouseenter="text7()" onmouseleave="textnull()" src="zdjecie7.jpeg">
+<img class="zdjlewo" id="zdj8" onmouseenter="text9()" onmouseleave="textnull()" src="zdjecie8.jpeg">
+<img class="zdjprawo" id="zdj9" onmouseenter="text8()" onmouseleave="textnull()" src="zdjecie9.jpeg">
+<img class="zdjprawo" id="zdj10" onmouseenter="text10()" onmouseleave="textnull()" src="zdjecie10.jpeg">
+<div id="tekstdonajechania"></div>
+<script>
+function textnull(){
+document.getElementById("tekstdonajechania").innerHTML=""
+}
+function text1(){
+document.getElementById("tekstdonajechania").innerHTML="zdjecie z boomeranga w energylandii(babci też sie podobało(tak mi sie wydaje))"
+}
+function text2(){
+document.getElementById("tekstdonajechania").innerHTML="Ja z zuzią w święta 2022 roku"
+}
+function text3(){
+document.getElementById("tekstdonajechania").innerHTML="ja z babcią i mamą w górach w 2024(przygoda czekała(kiedy kolejny taki wypad?))"
+}
+function text4(){
+document.getElementById("tekstdonajechania").innerHTML="babcia huśtająca sie z zuzia na placu zabaw w wakacje"
+}
+function text5(){
+document.getElementById("tekstdonajechania").innerHTML="dziadek ja i babcia dumnie pnący sie w strone szczytu"  
+}
+function text6(){
+document.getElementById("tekstdonajechania").innerHTML="dziadek i babcia wspinajacy sie po górach"
+}
+function text7(){
+document.getElementById("tekstdonajechania").innerHTML="dziadek trenuje na zielonej szkole a ja go wspieram emocjonalnie"
+}
+function text8(){
+document.getElementById("tekstdonajechania").innerHTML="zdobyciele sczczytu nasze wspólne zdjęcie(tylko mamy brakuje)"
+}
+function text9(){
+document.getElementById("tekstdonajechania").innerHTML="uzupełnienie wartości odżywczych po udanym ataku szczytowym"
+}
+function text10(){
+document.getElementById("tekstdonajechania").innerHTML="z babcią jesteśmy gotowi na popływanie w basenie (hotel jawor)"
+}
+function text11(){
+document.getElementById("tekstdonajechania").innerHTML="znów z babcią w drodze na wyprawe w góry(nie moge sie doczekac kolejnego takiego wyjazdu)"
+}
+
+
+</script>
+
+</body>
+</html>
+            
